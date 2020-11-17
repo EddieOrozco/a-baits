@@ -1,9 +1,14 @@
 import React from 'react';
+import ImageTitle from '../image-title/ImageTitle';
 
 const Antiques = () => {
   return (
-    <div style={{ height: '100px', background: 'red' }}>
-      <h1>Antiques</h1>
+    <div className='main'>
+      <ImageTitle />
+
+      <div>
+        <h1 className='linksTitle'>Antiques</h1>
+      </div>
     </div>
   );
 };

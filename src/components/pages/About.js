@@ -1,33 +1,41 @@
 import React from 'react';
 
+import ImageTitle from '../image-title/ImageTitle';
+
 const About = () => {
   return (
-    <div
-      class='jumbotron jumbotron-fluid'
-      style={{
-        background: '#fff',
-        textAlign: 'center',
-        backgroundImage: `url('//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F6c%2F89%2Ffd%2F6c89fdfa47e98c5f426dcd005bf88b26.jpg&f=1&nofb=1')`,
-        backgroundRepeat: ' no-repeat',
-        width: '100%',
-        backgroundSize: '100% 100%',
-        height: '450px',
-        marginBottom: '6rem',
-      }}
-    >
-      <div class='container'>
-        <h1
-          class='display-4'
-          style={{
-            paddingTop: '100px',
-          }}
-        >
-          About
-        </h1>
-        {/* <p class='lead'>
-          Don't Forget to Check out our Antique Page you might find a classic
-          piece.
-        </p> */}
+    <div className='main'>
+      <ImageTitle />
+      <div className='container'>
+        <h1 className='linksTitle'>A Chicago fishing institution</h1>
+        <div class='row about-description'>
+          <div class='col'>
+            <p>
+              Our family-run business has been serving--and helping
+              build--Chicago’s fishing community since 1951. Although we are no
+              longer in the location pictured above (our second, across from
+              where McCormick Place Hilton sits today), we are still Chicago’s
+              widest selection of high-quality live and frozen baits. At
+              Henry’s, we aren’t afraid to show you our bait; in fact, we
+              guarantee that all bait will be opened and checked by our staff
+              when you buy it. If we wouldn’t fish with it, we wouldn’t ask you
+              to, either.
+            </p>
+          </div>
+          <div class='col'>
+            <p>
+              Our family-run business has been serving--and helping
+              build--Chicago’s fishing community since 1951. Although we are no
+              longer in the location pictured above (our second, across from
+              where McCormick Place Hilton sits today), we are still Chicago’s
+              widest selection of high-quality live and frozen baits. At
+              Henry’s, we aren’t afraid to show you our bait; in fact, we
+              guarantee that all bait will be opened and checked by our staff
+              when you buy it. If we wouldn’t fish with it, we wouldn’t ask you
+              to, either.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

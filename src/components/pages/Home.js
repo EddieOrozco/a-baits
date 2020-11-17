@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../layout/Header';
-import Cards from '../layout/Cards';
+import Cards from '../cards/Cards';
 import AntiquesReminder from '../layout/AntiquesReminder';
 
 const Home = () => {

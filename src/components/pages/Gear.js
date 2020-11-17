@@ -1,9 +1,14 @@
 import React from 'react';
+import ImageTitle from '../image-title/ImageTitle';
 
 const Gear = () => {
   return (
-    <div style={{ height: '100px', background: 'red' }}>
-      <h1>Gear</h1>
+    <div className='main'>
+      <ImageTitle />
+
+      <div>
+        <h1 className='linksTitle'>Gear</h1>
+      </div>
     </div>
   );
 };
