@@ -3,9 +3,10 @@ import React from 'react';
 import ImageTitle from '../image-title/ImageTitle';
 
 const About = () => {
+  let imageTitle = 'About';
   return (
     <div className='main'>
-      <ImageTitle />
+      <ImageTitle imageTitle={imageTitle} />
       <div className='container'>
         <h1 className='linksTitle'>A Chicago fishing institution</h1>
         <div class='row about-description'>

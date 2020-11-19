@@ -2,9 +2,10 @@ import React from 'react';
 import ImageTitle from '../image-title/ImageTitle';
 
 const AntiquesReminder = () => {
+  let imageTitle = 'Antiques';
   return (
     <div>
-      <ImageTitle />
+      <ImageTitle imageTitle={imageTitle} />
       {/* <div
         class='jumbotron jumbotron-fluid'
         style={{
