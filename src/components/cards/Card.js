@@ -5,9 +5,9 @@ import './Card.scss';
 
 const Card = ({ title, imageUrl, linkUrl, description }) => {
   return (
-    <div class='col-4'>
+    <div class='col-sm-4'>
       <div class='card'>
-        <img className='card-img-top' src={imageUrl} alt='' />
+        <img className='card-img-top rounded-0' src={imageUrl} alt='' />
         <div class='card-body'>
           <h5 class='card-title'>{title}</h5>
           {/* <p class='card-text'>{description}</p> */}

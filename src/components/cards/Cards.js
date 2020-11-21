@@ -11,7 +11,7 @@ class Cards extends Component {
         imageUrl:
           '//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn2-www.liveoutdoors.com%2Fassets%2Fuploads%2F2016%2F06%2Fbait-fish.jpg&f=1&nofb=1',
         id: 1,
-        linkUrl: '/baits',
+        linkUrl: '/bait',
         description:
           "Some quick example text to build on the card title and make up the bulk of the card's content",
       },

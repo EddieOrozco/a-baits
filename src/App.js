@@ -9,6 +9,7 @@ import Footer from './components/layout/Footer';
 import About from './components/pages/About';
 import Baits from './components/pages/Baits';
 import Lines from './components/pages/Lines';
+import RodsReels from './components/pages/RodsReels';
 import TerminalTackle from './components/pages/TerminalTackle';
 import Gear from './components/pages/Gear';
 import Antiques from './components/pages/Antiques';
@@ -21,8 +22,9 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
-          <Route exact path='/baits' component={Baits} />
+          <Route exact path='/bait' component={Baits} />
           <Route exact path='/lines' component={Lines} />
+          <Route exact path='/rodsReels' component={RodsReels} />
           <Route exact path='/terminalTackle' component={TerminalTackle} />
           <Route exact path='/gear' component={Gear} />
           <Route exact path='/antiques' component={Antiques} />

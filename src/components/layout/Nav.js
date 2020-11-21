@@ -36,13 +36,18 @@ const Nav = () => {
               </Link>
             </li>
             <li class='nav-item '>
-              <Link to='/baits' class='nav-link letter-style'>
+              <Link to='/bait' class='nav-link letter-style'>
                 Baits
               </Link>
             </li>
             <li class='nav-item '>
               <Link to='/lines' class='nav-link letter-style'>
                 Lines
+              </Link>
+            </li>
+            <li class='nav-item '>
+              <Link to='/rodsReels' class='nav-link letter-style'>
+                Rods Reels
               </Link>
             </li>
             <li class='nav-item '>
@@ -59,11 +64,6 @@ const Nav = () => {
               <Link to='/antiques' class='nav-link letter-style'>
                 Antiques
               </Link>
-            </li>
-            <li class='nav-item '>
-              <a class='nav-link letter-style' href='#'>
-                Contact
-              </a>
             </li>
           </ul>
         </div>
