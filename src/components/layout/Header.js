@@ -3,10 +3,17 @@ import './Header.scss';
 
 const Header = () => {
   return (
-    <div className='jumbotron jumbotron-fluid main-image'>
+    <div
+      className='jumbotron jumbotron-fluid main-image'
+      style={{
+        backgroundImage: `url("./images/abaitsshop.jpg")`,
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
       <div className='bg-shadow'>
         <div className='container'>
           <h1 className='display-4 main-title'>A-Baits & Tackle</h1>
+
           <p className='lead main-lead'>
             Cast out and Catch us at our Lockport Location
           </p>

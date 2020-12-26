@@ -3,6 +3,10 @@
   .card {
     border-radius: none !important;
     border: none;
+    .cardImg {
+      height: auto;
+      object-fit: contain;
+    }
 
     .card-body {
       text-align: center;

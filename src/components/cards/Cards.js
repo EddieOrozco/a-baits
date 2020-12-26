@@ -7,9 +7,8 @@ class Cards extends Component {
   state = {
     cards: [
       {
-        title: 'Live Bait',
-        imageUrl:
-          '//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn2-www.liveoutdoors.com%2Fassets%2Fuploads%2F2016%2F06%2Fbait-fish.jpg&f=1&nofb=1',
+        title: 'Lures',
+        imageUrl: 'images/lure-4.jpeg',
         id: 1,
         linkUrl: '/bait',
         description:
@@ -17,8 +16,7 @@ class Cards extends Component {
       },
       {
         title: 'Rods & Reels',
-        imageUrl:
-          '//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn2-www.liveoutdoors.com%2Fassets%2Fuploads%2F2016%2F06%2Fbait-fish.jpg&f=1&nofb=1',
+        imageUrl: 'images/reel_1.jpeg',
         id: 2,
         linkUrl: '/rodsReels',
         description:
@@ -26,8 +24,7 @@ class Cards extends Component {
       },
       {
         title: 'Terminal Tackle',
-        imageUrl:
-          '//external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn2-www.liveoutdoors.com%2Fassets%2Fuploads%2F2016%2F06%2Fbait-fish.jpg&f=1&nofb=1',
+        imageUrl: 'images/hooks-1.jpeg',
         id: 3,
         linkUrl: '/terminalTackle',
         description:

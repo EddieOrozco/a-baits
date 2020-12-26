@@ -40,7 +40,7 @@ const Nav = () => {
                 Baits
               </Link>
             </li>
-            <li class='nav-item '>
+            {/* <li class='nav-item '>
               <Link to='/lines' class='nav-link letter-style'>
                 Lines
               </Link>
@@ -54,7 +54,7 @@ const Nav = () => {
               <Link to='/terminalTackle' class='nav-link letter-style'>
                 Terminal Tackle
               </Link>
-            </li>
+            </li> */}
             <li class='nav-item '>
               <Link to='/gear' class='nav-link letter-style'>
                 Gear

@@ -1,7 +1,7 @@
 import React from 'react';
-import '../cards/Card.scss';
+import './Item.scss';
 
-const Item = ({ title, imageUrl, linkUrl, description }) => {
+const Item = ({ title, imageUrl, linkUrl, price, price_two }) => {
   return (
     <div className='col-sm-4'>
       <div class='card-group'>
@@ -13,7 +13,9 @@ const Item = ({ title, imageUrl, linkUrl, description }) => {
           />
           <div class='card-body'>
             <h5 class='card-title'>{title}</h5>
-            <p class='card-text'>{description}</p>
+            <h6 class='card-text'>
+              {price} {price_two}
+            </h6>
           </div>
         </div>
       </div>

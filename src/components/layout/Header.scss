@@ -1,14 +1,14 @@
 .main-image {
-  height: 700px;
-  background-image: url('https://scontent-ort2-2.xx.fbcdn.net/v/t31.0-8/616719_442174969138479_1945560584_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=HbgagK66XacAX-Mt0F9&_nc_ht=scontent-ort2-2.xx&oh=73577a7e66c90f764deb5278a5562e4e&oe=5FDA14A3');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
   text-align: center;
-  // padding-top: 250px;
   padding: 0;
   color: #fff;
   border-radius: none;
   .bg-shadow {
-    // background-color: rgba(0, 0, 0, 0.1);
-    // opacity: 4;
     height: 100%;
     .container {
       .main-title {

@@ -7,12 +7,12 @@ import Footer from './components/layout/Footer';
 
 // Routes
 import About from './components/pages/About';
-import Baits from './components/pages/Baits';
-import Lines from './components/pages/Lines';
-import RodsReels from './components/pages/RodsReels';
-import TerminalTackle from './components/pages/TerminalTackle';
-import Gear from './components/pages/Gear';
-import Antiques from './components/pages/Antiques';
+import BaitItems from './components/pages/BaitItems';
+// import LineItems from './components/pages/LineItems';
+// import RodReelItems from './components/pages/RodReelItems';
+// import TerminalTackleItems from './components/pages/TerminalTackleItems';
+import GearItems from './components/pages/GearItems';
+import AntiqueItems from './components/pages/AntiqueItems';
 
 function App() {
   return (
@@ -22,12 +22,12 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
-          <Route exact path='/bait' component={Baits} />
-          <Route exact path='/lines' component={Lines} />
-          <Route exact path='/rodsReels' component={RodsReels} />
-          <Route exact path='/terminalTackle' component={TerminalTackle} />
-          <Route exact path='/gear' component={Gear} />
-          <Route exact path='/antiques' component={Antiques} />
+          <Route exact path='/bait' component={BaitItems} />
+          {/* <Route exact path='/lines' component={LineItems} /> */}
+          {/* <Route exact path='/rodsReels' component={RodReelItems} /> */}
+          {/* <Route exact path='/terminalTackle' component={TerminalTackleItems} /> */}
+          <Route exact path='/gear' component={GearItems} />
+          <Route exact path='/antiques' component={AntiqueItems} />
         </Switch>
         <Footer />
       </div>
