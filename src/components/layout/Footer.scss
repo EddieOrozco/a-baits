@@ -33,6 +33,9 @@ footer {
       .fab {
         padding: 5px;
         color: #fff;
+        &:hover {
+          color: #0000cc;
+        }
       }
     }
   }
