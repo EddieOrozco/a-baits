@@ -11,7 +11,7 @@ const About = () => {
       <div className='container'>
         <h1 className='linksTitle'>A-Baits in busness for over 30 years.</h1>
         <div class='row about-description'>
-          <div class='col'>
+          <div class='col-sm-6'>
             <p>
               Hi, I am Charles Moffalt, a fellow Army veteran and the owner and
               operator of A-Baits. A fishing tackle and live bait shop. I have
@@ -24,7 +24,7 @@ const About = () => {
               are interested in learning about making lures.
             </p>
           </div>
-          <div class='col'>
+          <div class='col-sm-6'>
             <p>
               I also carry antique lures for those interested in having a bit of
               history in their tackle box. My live bait includes minnows, worms,

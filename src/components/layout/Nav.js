@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <nav class='navbar navbar-expand-lg navbar-light sticky-top'>
       <div className='container'>
-        <a class='navbar-brand' href='#'>
+        <a class='navbar-brand' href='/'>
           A-Baits
         </a>
         <button
@@ -37,24 +37,9 @@ const Nav = () => {
             </li>
             <li class='nav-item '>
               <Link to='/bait' class='nav-link letter-style'>
-                Baits
+                Bait
               </Link>
             </li>
-            {/* <li class='nav-item '>
-              <Link to='/lines' class='nav-link letter-style'>
-                Lines
-              </Link>
-            </li>
-            <li class='nav-item '>
-              <Link to='/rodsReels' class='nav-link letter-style'>
-                Rods Reels
-              </Link>
-            </li>
-            <li class='nav-item '>
-              <Link to='/terminalTackle' class='nav-link letter-style'>
-                Terminal Tackle
-              </Link>
-            </li> */}
             <li class='nav-item '>
               <Link to='/gear' class='nav-link letter-style'>
                 Gear

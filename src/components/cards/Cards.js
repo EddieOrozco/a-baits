@@ -15,7 +15,7 @@ class Cards extends Component {
           "Some quick example text to build on the card title and make up the bulk of the card's content",
       },
       {
-        title: 'Rods & Reels',
+        title: 'Gear',
         imageUrl: 'images/reel_1.jpeg',
         id: 2,
         linkUrl: '/gear',
