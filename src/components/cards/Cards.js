@@ -18,15 +18,15 @@ class Cards extends Component {
         title: 'Rods & Reels',
         imageUrl: 'images/reel_1.jpeg',
         id: 2,
-        linkUrl: '/rodsReels',
+        linkUrl: '/gear',
         description:
           "Some quick example text to build on the card title and make up the bulk of the card's content",
       },
       {
-        title: 'Terminal Tackle',
-        imageUrl: 'images/hooks-1.jpeg',
+        title: 'Antiques',
+        imageUrl: 'images/anti_34.jpeg',
         id: 3,
-        linkUrl: '/terminalTackle',
+        linkUrl: '/antiques',
         description:
           "Some quick example text to build on the card title and make up the bulk of the card's content",
       },

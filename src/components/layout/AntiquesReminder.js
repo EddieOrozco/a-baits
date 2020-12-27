@@ -5,7 +5,7 @@ const AntiquesReminder = () => {
   let imageTitle = 'Antiques';
   return (
     <div>
-      <ImageTitle imageTitle={imageTitle} />
+      {/* <ImageTitle imageTitle={imageTitle} /> */}
       {/* <div
         class='jumbotron jumbotron-fluid'
         style={{
