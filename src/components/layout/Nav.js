@@ -25,7 +25,7 @@ const Nav = () => {
           id='navbarNavDropdown'
         >
           <ul class='navbar-nav'>
-            <li class='nav-item active'>
+            <li class='nav-item '>
               <Link to='/' class='nav-link letter-style'>
                 Home <span class='sr-only'>(current)</span>
               </Link>

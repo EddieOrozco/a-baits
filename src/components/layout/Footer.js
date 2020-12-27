@@ -32,15 +32,18 @@ const Footer = () => {
                 <h5 class='card-title'>Contact Info</h5>
                 <p class='card-text'>Phone: (815) 838-2904</p>
                 <div className='social'>
-                  <Link
-                    to='https://www.facebook.com/A-Baits-Bait-and-Tackle-171426449546667/'
+                  <a
+                    href='https://www.facebook.com/A-Baits-Bait-and-Tackle-171426449546667/'
                     target='_blank'
                   >
                     <i class='fab fa-facebook-square'></i>
-                  </Link>
-                  <Link to='' target='_blank'>
+                  </a>
+                  <a
+                    href='https://www.google.com/search?client=firefox-b-1-d&q=a+baits+and+tackle'
+                    target='_blank'
+                  >
                     <i class='fab fa-google'></i>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
