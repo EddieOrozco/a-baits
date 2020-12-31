@@ -30,7 +30,7 @@ class GearItems extends Component {
       },
       {
         title: 'Custom Leafs',
-        imageUrl: 'images/stringer.jpeg',
+        imageUrl: 'images/leaf-34.jpeg',
         id: 3,
         linkUrl: '/terminalTackle',
         description: '',
