@@ -3,8 +3,16 @@
   .card {
     border-radius: none !important;
     border: none;
+    .rounded-0 {
+      height: 350px;
+      object-fit: contain;
+      object-position: center;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
     .cardImg {
-      height: auto;
+      // height: auto;
       object-fit: contain;
     }
 

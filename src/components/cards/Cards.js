@@ -8,7 +8,7 @@ class Cards extends Component {
     cards: [
       {
         title: 'Lures',
-        imageUrl: 'images/lure-4.jpeg',
+        imageUrl: 'images/lure-4.png',
         id: 1,
         linkUrl: '/bait',
         description:
@@ -16,7 +16,7 @@ class Cards extends Component {
       },
       {
         title: 'Gear',
-        imageUrl: 'images/reel_1.jpeg',
+        imageUrl: 'images/reel_1.png',
         id: 2,
         linkUrl: '/gear',
         description:
@@ -24,7 +24,7 @@ class Cards extends Component {
       },
       {
         title: 'Antiques',
-        imageUrl: 'images/anti_34.jpeg',
+        imageUrl: 'images/anti_34.png',
         id: 3,
         linkUrl: '/antiques',
         description:

@@ -9,7 +9,10 @@ const Card = ({ title, imageUrl, linkUrl, description }) => {
       <div class='card'>
         <img className='card-img-top rounded-0 cardImg' src={imageUrl} alt='' />
         <div class='card-body'>
-          <h5 class='card-title'>{title}</h5>
+          <div className='card-title-alignment'>
+            <h5 class='card-title'>{title}</h5>
+          </div>
+
           {/* <p class='card-text'>{description}</p> */}
           <Link to={linkUrl} class='custom-btn'>
             View Now
